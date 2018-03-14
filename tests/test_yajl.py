@@ -1,4 +1,4 @@
-import six
+from setuptools.extern import six
 import unittest
 import ctypes
 import mock

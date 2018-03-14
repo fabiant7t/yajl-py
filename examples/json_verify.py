@@ -2,7 +2,7 @@
 Python implementation of the Yajl C json_verify application
 '''
 
-import six
+from setuptools.extern import six
 import os
 import sys
 BASEPATH = os.path.dirname(os.path.realpath(__file__))

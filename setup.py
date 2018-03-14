@@ -19,7 +19,6 @@ Pure Python wrapper to the excellent Yajl (Yet Another Json Library) C library""
       zip_safe=True,
       install_requires=[
           # -*- Extra requirements: -*-
-          'six',
       ],
       entry_points="""
       # -*- Entry points: -*-
