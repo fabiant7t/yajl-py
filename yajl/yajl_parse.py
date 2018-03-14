@@ -3,13 +3,13 @@ Code that allows use of api/yajl_parse.h
 '''
 
 import sys
-import six
 from abc import ABCMeta, abstractmethod
 from .yajl_common import yajl, YajlError, YajlConfigError
 from ctypes import (
     Structure, CFUNCTYPE, POINTER, byref, string_at,
     c_void_p, c_char_p, c_ubyte, c_int, c_uint, c_longlong, c_double,
 )
+from setuptools.extern import six
 
 # Callback Functions
 YAJL_NULL = CFUNCTYPE(c_int, c_void_p)

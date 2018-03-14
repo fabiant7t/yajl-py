@@ -1,7 +1,7 @@
-import six
 import yajl
 import os
 import unittest
+from setuptools.extern import six
 
 TESTPATH = os.path.dirname(__file__)
 

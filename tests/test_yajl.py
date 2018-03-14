@@ -1,8 +1,8 @@
-from setuptools.extern import six
 import unittest
 import ctypes
 import mock
 import yajl.yajl_common
+from setuptools.extern import six
 
 class BaseContentHandler(yajl.YajlContentHandler):
     def yajl_null(self, ctx):
